@@ -1,0 +1,6 @@
+lwr_limit,upr_limit=-50,100
+print(f"The positive numbers in the range are:")
+for num in range(lwr_limit,upr_limit+1):
+
+    if num>=0:
+        print(num,end=" ")
